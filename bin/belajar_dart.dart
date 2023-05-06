@@ -9,11 +9,18 @@ void main(List<String> arguments) {
 int calculate() {
   return 6 * 7;
 }
-
   print('6 * 7 = ${calculate()}');
 
   var greetings  = 'hello dart';
+  greetings = 'dart hello';
   print(greetings);
+
+  // final name = ALU; //error ,final cant changed data from final
+  // name = 'azzar';
+  // print(name);
+  final name;//another way
+  name= 'azzar';
+  print(name);
 
   var age;
   age = 20;
