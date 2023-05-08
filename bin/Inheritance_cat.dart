@@ -5,8 +5,7 @@ import 'package:belajar_dart/belajar_dart.dart' as belajar_dart;
 class Cat extends Animal {
   late String furColor;
 
-  Cat(String name, int age, double weight, String furColor)
-      : this.furColor = furColor,
+  Cat(String name, int age, double weight, String furColor): this.furColor = furColor,
         super(name, age, weight); //constructor from Animal Class
 
   void walk() {
