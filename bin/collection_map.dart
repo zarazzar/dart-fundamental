@@ -22,6 +22,8 @@ void main(List<String> arguments) {
 
 
   //ADD VALUE AND KEY
+  // capital['New Delhi'];
+  // print(capital['new Delhi']); output = null
   capital['New Delhi'] = 'India';
   print(capital); //tambah key & value
   //output {Jakarta: Indonesia, London: England, Tokyo: Japan, New Delhi: India}
